@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog del Cafe</title>
+    <title>Comerio Inc.</title>
 
 <!-- prefetch carga la pagina siguiente -->
 <link rel="prefetch" href="nosotros.html" as="document">
@@ -27,15 +27,15 @@
 </head>
 <body>
     <header class="header">
-        
+    <div class="header__color">
     <div class="contenedor">
         <div class="barra">
             <a class="logo no-margin centrar-texto" href="index.html">
-                <h1 class="logo__nombre">Blog<span class="logo__bold">DeCafé</span></h1></a>
+                <h1 class="logo__nombre">Comercio <span class="logo__bold">Inc.</span></h1></a>
                 
                 <nav class="navegacion">
                     <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
-                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="servicios.html" class="navegacion__enlace">Servicios</a>
                     <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                 </nav>
 
@@ -43,104 +43,114 @@
 
     </div>
         <div class="header__texto">
-            <h2 class="no-margin"> Blog del Café con consejos y trucos</h2>
-            <p class="no-margin"> Aprende de los expertos con las mejores recetas</p>
+            <h2 class="no-margin">Servicios Aduaneros</h2>
+            <p class="no-margin"> Soluciones de importación, exportación y operaciones especiales.</p>
         </div>
+    </div>
     </header>
 
-    <div class="contenedor contenido-principal">
+    <div class="contenedor">
         <main class="blog">
-            <h3>Nuestro Blog</h3>
+            <h3 class="blog-titulo centrar-texto">La mejor agencia aduanal de Mèxico. </h3>
 
-            <article class="entrada">
+            <article class="entrada"> <!-- inicio de flex -->
                 <div class="entrada__imagen">
-                    <picture>
-                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp"> 
                             <img loading="lazy" src="img/blog1.jpg" alt="imagen del blog">
-                    </picture>
                 </div>
-                <div class="entrada__contenido">
-                    <h4 class="no-margin">Tipos de Grano de Café.</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                         Totam perferendis laborum earum in esse dolore iure placeat quo, tempora id dolorem blanditiis, 
-                         ipsum modi voluptas ea quae neque quasi. Reprehenderit?</p>
-                    <a href="entrada.html" class="boton boton--primario">Leer</a>
-                </div>
+                <div class="entrada__contenido ">
+                    <p class="">Somos una agencia aduanal enfocada en optimizar costos y mejorar los tiempos en la operación logística de nuestros clientes.</p>
+                     <ul>        <li>Contamos con 18 patentes propias, para ofrecer una mayor cobertura y brindar respaldo a las operaciones de nuestros clientes.</li>
+                            <li>Cubrimos desde la planeación de embarques hasta el manejo de proyectos llave en mano.</li>
+                            <li>Aplicamos las mejores prácticas, comprobadas a través de nuestros años de experiencia en múltiples operaciones.</li>
+                            </ul>
+<!--                     <a href="entrada.html" class="boton boton--primario">Leer</a>
+ -->                </div>
             </article>
-
-            <article class="entrada">
-                <div class="entrada__imagen">
-                    <picture>
-                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp"> 
-                            <img loading="lazy" src="img/blog2.jpg" alt="imagen del blog">
-                    </picture>
-                </div>
-                <div class="entrada__contenido">
-                    <h4 class="no-margin">3 Deliciosas Recetas de Café.</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                         Totam perferendis laborum earum in esse dolore iure placeat quo, tempora id dolorem blanditiis, 
-                         ipsum modi voluptas ea quae neque quasi. Reprehenderit?</p>
-                    <a href="entrada.html" class="boton boton--primario">Leer</a>
-                </div>
-            </article>
-
-            <article class="entrada">
-                <div class="entrada__imagen">
-                    <picture>
-                        <source loading="lazy" srcset="img/blog3.webp" type="image/webp"> 
-                            <img loading="lazy" src="img/blog3.jpg" alt="imagen del blog">
-                        </picture>
-                </div>
-                <div class="entrada__contenido">
-                    <h4 class="no-margin">Beneficios del café</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                         Totam perferendis laborum earum in esse dolore iure placeat quo, tempora id dolorem blanditiis, 
-                         ipsum modi voluptas ea quae neque quasi. Reprehenderit?</p>
-                    <a href="entrada.html" class="boton boton--primario">Leer</a>
-                </div>
-            </article>
-
-
         </main>
-        <aside class="sidebar">
-            <h3>Nuestros Cursos y Talleres</h3>
-            <ul class="cursos no-padding">
-                <li class="widget-cursos">
-                    <h4 class="no-margin"> Técnicas de extracción de Café</h4>
-                    <p class="widget-curso__label">Precio: 
-                        <span class="widget-curso__info"> Gratis </span>
-                    </p>
-                    <p class="widget-curso__label">Cupo: 
-                        <span class="widget-curso__info"> 20 </span>
-                    </p>
-                    <a href="entrada.html" class="boton boton--secundario">más información</a>
+        
+        <section class="especializacion">
+            <h3 class="blog-titulo centrar-texto">Nos especializamos en las siguientes industrias</h3>
+            <p class="centrar-texto">Estos son algunas de las industrias en las que hemos aportado nuestra experiencia como agente aduanal y agencia de comercio internacional:            </p>
+            <div class="especializacion-categorias">
+               
+                <div class="especializacion-categorias__imagen">
+                  <a href="#">  <img src="img/imagen1.jpg" alt="" class="imagen2">
+                    <p class="especializacion-categorias__texto">Automotriz</p>
+               </a>
+                </div>
+    
+            <div class="especializacion-categorias__imagen">
+                <a href="#">  <img src="img/imagen2.png" alt="" class="imagen2">
+                    <p class="especializacion-categorias__texto">Maquiladora</p>
+                </a>
+                </div>
+        
+            <div class="especializacion-categorias__imagen">
+                <a href="#">  <img src="img/imagen3.jpg" alt="" class="imagen2">
+                    <p class="especializacion-categorias__texto">Maquinaria</p>
+                </a>
+                </div>
 
-                </li>
+            <div class="especializacion-categorias__imagen">
+                <a href="#">  <img src="img/img4.jpg" alt="" class="imagen2">
+                    <p class="especializacion-categorias__texto">Energetica</p>
+                </a>
+                </div>
+            
+            <div class="especializacion-categorias__imagen">
+                <a href="#">  <img src="img/imagen5.jpg" alt="" class="imagen2">
+                    <p class="especializacion-categorias__texto">Metalurgica</p>
+                </a>
+                </div>
+            
+            <div class="especializacion-categorias__imagen">
+                <a href="#">  <img src="img/imagen6.jpg" alt="" class="imagen2">
+                    <p class="especializacion-categorias__texto">Tecnologia</p>
+                </a>
+                </div>
+            
+            <div class="especializacion-categorias__imagen">
+                <a href="#">  <img src="img/imagen7.jpg" alt="" class="imagen2">
+                    <p class="especializacion-categorias__texto">Salud</p>
+                </a>
+                </div>
+            
+            <div class="especializacion-categorias__imagen">
+                <a href="#">  <img src="img/imagen8.jpg" alt="" class="imagen2">
+                    <p class="especializacion-categorias__texto">Alimenticia</p>
+                </a>
+                </div>
+            </div>
+            
+        </section>
 
-                <li class="widget-cursos">
-                    <h4 class="no-margin">4 Recetas de café para principiantes</h4>
-                    <p class="widget-curso__label">Precio: 
-                        <span class="widget-curso__info"> Gratis </span>
-                    </p>
-                    <p class="widget-curso__label">Cupo: 
-                        <span class="widget-curso__info"> 20 </span>
-                    </p>
-                    <a href="entrada.html" class="boton boton--secundario">más información</a>
+        <section class="empresas"> <!-- empresas que confian en nosotros -->
+            <h3 class="blog-titulo centrar-texto">Empresas que confian en nosotros</h3>
+            <p class="centrar-texto">Nuestra experiencia nos permite atender empresas de diferentes tamaños,
+                ayudándolos a hacer que sus operaciones sean más eficientes.</p>
+                <div class="empresas-seccion">
+                    <div class="empresas-seccion__imagen">
+                        <img src="img/empresa1.webp" alt="">
+                        <img src="img/empresa2.webp" alt="">
+                        <img src="img/empresa3.webp" alt="">
+                        <img src="img/empresa4.webp" alt="">
+                        <img src="img/empresa5.webp" alt="">
 
-                </li>
-            </ul>
-        </aside>
+                    </div>
+                </div>
+        </section>
+
     </div>
     
     <footer class="footer">
         <div class="contenedor">
             <div class="barra">
                 <a class="logo no-margin centrar-texto" href="index.html">
-                    <h1 class="logo__nombre">Blog<span class="logo__bold">DeCafé</span></h1></a>
+                    <h1 class="logo__nombre">Comercio <span class="logo__bold">Inc.</span></h1></a>
                     
                     <nav class="navegacion">
                         <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
-                        <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                        <a href="servicios.html" class="navegacion__enlace">Servicios</a>
                         <a href="contacto.html" class="navegacion__enlace">Contacto</a>
                     </nav>
     
