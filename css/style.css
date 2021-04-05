@@ -45,9 +45,11 @@ html{
     /* alternativa
     width: min(90%. 120rem) */
     margin: 0 auto;
+    
    }
 
    a{
+       color: var(--blanco);
        text-decoration: none;
    }
 
@@ -162,8 +164,7 @@ html{
     
     }
 
-    /* C O N T E N I D O  D E  B L O G   */
-
+=
     @media (min-width: 768px){
         .contenido-principal{
             display:grid;
@@ -237,7 +238,6 @@ html{
         
     }
 
-    /* B O T O N E S  G E N E R A L E S  */
 
 
 .boton{
@@ -274,35 +274,7 @@ html{
     background-color: var(--primario);
 }
 
-/* S L I D E R  B L O G */
 
-.cursos{
-    list-style: none;
-}
-
-.widget-cursos{
-    border-bottom: .1rem solid var(--claro);
-    margin-bottom: 1rem;
-}
-
-.widget-cursos:last-of-type{
-    border: none;
-    margin-bottom: 0;
-}
-
-.widget-curso__label, .curso__label{
-font-family: var(--fuenteHeading);
-font-weight: bold;
-}
-
-.widget-curso__info, .curso__info{
-    font-weight: 400;
-}
-.widget-curso__info,.widget-curso__label, .curso__label, .curso__info{
-    font-size: 2rem;
-}
-
-/* F O O T E R */
 
 .footer{
     background-color: var(--negro);
@@ -389,4 +361,83 @@ margin-bottom: 2rem;
 
 .campo__field-textarea{
     height: 20rem;
+}
+
+.contacto-datos{
+    margin: 0 auto;
+    width: 60rem;
+    background-color: var(--negro);
+    box-shadow: 0px 5px 14px 0px rgba(0,0,0,0.69);
+    border-radius: 1rem;
+    padding-bottom: 1rem ;
+
+}
+
+.contacto__imagen{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    border: solid 4px var(--blanco) ;
+    border-radius: 50%;
+    width: 15rem;
+}
+
+.centrar-imagen{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.contacto__texto{
+    color: var(--blanco);
+    font-family: var(--fuenteParrafos);
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.contacto__texto:last-of-type{
+    margin-bottom: 2rem;
+}
+
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+
+}
+
+.servicios-aduaneros, .servicios-globalizada, .servicios-comercio {
+background-color: var(--blanco);
+padding: 2rem;
+}
+
+.fondo1{
+    background-color: var(--negro);
+    padding: 2rem;
+}
+
+.servicios__texto{
+    font-weight: 3rem;
+    line-height: 3rem;
+    padding-left: 2rem;
+}
+
+.servicios-inf{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+}
+
+.servicios-inf__contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+justify-content: center;
+background-color: rgba(255, 255, 255, 0.548);
+margin: 0 ;
+margin-left: -10rem;
+
 }
